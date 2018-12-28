@@ -1,0 +1,2 @@
+# hexo
+my hexo code
