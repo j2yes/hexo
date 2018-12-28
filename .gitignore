@@ -3,3 +3,4 @@ node_modules/*
 .idea/*
 .idea/checkstyle-idea.xml
 .idea/encodings.xml
+public/*
