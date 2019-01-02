@@ -510,10 +510,10 @@ pangu: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname: j2yes
+  enable: false
+  shortname:
   count: true
-  lazyload: false
+  lazyload: true
 
 # changyan
 changyan:
@@ -539,7 +539,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC80MTkzNS8xODQ4MQ==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction
