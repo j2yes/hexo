@@ -510,8 +510,8 @@ pangu: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: j2yes
   count: true
   lazyload: false
 
@@ -612,7 +612,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-92237726-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster
