@@ -7,7 +7,7 @@ categories:
 - markdown
 ---
 
-## markdown으로 글쓰기
+markdown으로 글쓰기
 
 ### 제목을 지정해보자
 
