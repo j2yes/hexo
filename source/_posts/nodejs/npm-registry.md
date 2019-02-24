@@ -46,7 +46,7 @@ https://www.sonatype.com/
 
 ### repository 생성
 
-![](create_repo.png "create_repository")
+![](/images/npm-registry/create_repo.png "create_repository")
 
 - 저장소 목록에서 url 컬럼의 버튼을 누르면 저장소 주소가 copy됨
 - repository 타입
@@ -60,16 +60,16 @@ https://www.sonatype.com/
 
 ### nexus npm저장소 계정만들기
 
-![](create_acc.png "create_account")
+![](/images/npm-registry/create_acc.png "create_account")
 
 ### 저장소 realms 설정
 
-![](set_realms.png "set_realms")
+![](/images/npm-registry/set_realms.png "set_realms")
 
 ### user role 설정 
 처음 anonymous 권한 설정이 읽기에 열려 있기 때문에 필요에 따라 anonymous user의 role 변경이 필요함
 
-![](set_role.png "set_role")
+![](/images/npm-registry/set_role.png "set_role")
 
 ### nexus npm 저장소 사용하기
 

@@ -4,3 +4,4 @@ node_modules/*
 .idea/checkstyle-idea.xml
 .idea/encodings.xml
 public/*
+public/source/_drafts/*
