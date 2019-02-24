@@ -9,6 +9,12 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ``` bash
 $ hexo new "My New Post"
+$ hexo new post title
+
+$ hexo new draft title
+
+# draft to post
+$ hexo publish post title
 ```
 
 More info: [Writing](https://hexo.io/docs/writing.html)
