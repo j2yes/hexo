@@ -79,3 +79,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# google map plugin
+google_maps_api_key: AIzaSyANgPfI0-VrNLw1Fe1Kd7f-5gcScdG4s7o
