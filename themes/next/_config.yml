@@ -141,7 +141,7 @@ menu:
   categories: /categories/ || th
   tags: /tags/ || tags
   admire: /admire/ || thumbs-up
-  path: /path/ || shoe-prints
+  path: /path/ || street-view
   about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
