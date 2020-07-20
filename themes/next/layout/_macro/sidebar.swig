@@ -107,7 +107,7 @@
                   {%  if theme.social_icons.enable %}
                     {% set sidebarIcon = '<i class="fa fa-fw fa-' + link.split('||')[1] | trim | default('globe') + '"></i>' %}
                   {% endif %}
-                  {{ next_url(sidebarURL, sidebarIcon + sidebarText, {title: name + ' &rarr; ' + sidebarURL}) }}
+                  {{ next_url(sidebarURL, sidebarIcon + sidebarText, {title: name + ' &rarr; ' + sidebarURL}, false) }}
                 </span>
               {% endfor %}
             </div>
@@ -122,7 +122,7 @@
               {% endif %}
               {% set ccURL = 'https://creativecommons.org/' + ccType %}
               {% set ccImage = '<img src="' + url_for(theme.images) + '/cc-' + theme.creative_commons.license + '.svg" alt="Creative Commons" />' %}
-              {{ next_url(ccURL, ccImage, {class: 'cc-opacity'}) }}
+              {{ next_url(ccURL, ccImage, {class: 'cc-opacity'}, false) }}
              </div>
           {% endif %}
 
@@ -136,7 +136,7 @@
               <ul class="links-of-blogroll-list">
                 {% for blogrollText, blogrollURL in theme.links %}
                   <li class="links-of-blogroll-item">
-                    {{ next_url(blogrollURL, blogrollText, {title: blogrollURL}) }}
+                    {{ next_url(blogrollURL, blogrollText, {title: blogrollURL}, false) }}
                   </li>
                 {% endfor %}
               </ul>
